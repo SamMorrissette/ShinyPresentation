@@ -17,5 +17,4 @@ function(input, output, session) {
     data <- read.csv(input$upload_file$datapath)
     datatable(data, rownames = FALSE)
   })
-
 }
