@@ -8,6 +8,7 @@
 #
 
 library(shiny)
+library(DT)
 
 # Define UI for application that draws a histogram
 fluidPage(
